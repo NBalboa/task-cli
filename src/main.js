@@ -131,4 +131,6 @@ if (arguments[0] === "add") {
         const task = TASKS[i];
         console.log(`${task.id} ${task.description} ${task.status}`);
     }
+} else {
+    console.log("command not found.");
 }
